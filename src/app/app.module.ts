@@ -4,11 +4,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FloatComponent } from './components/float/float.component';
+import { TeeComponent } from './components/tee/tee.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    FloatComponent
+    FloatComponent,
+    TeeComponent
   ],
   imports: [
     BrowserModule,
