@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FloatComponent } from './components/float/float.component';
 import { TeeComponent } from './components/tee/tee.component';
+import { Tee2Component } from './components/tee2/tee2.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FloatComponent,
-    TeeComponent
+    TeeComponent,
+    Tee2Component
   ],
   imports: [
     BrowserModule,
